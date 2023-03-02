@@ -56,7 +56,6 @@ const App = () => {
   const splitStory = story?.text
     .split(/\r?\n/)
     .filter(item => item !== ', ' && Boolean(item));
-  console.log({splitStory, isLoading});
 
   return (
     <LinearGradient colors={['#aaffa9', '#11ffbd']} style={{flex: 1}}>
